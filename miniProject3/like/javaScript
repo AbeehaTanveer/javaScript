@@ -1,0 +1,14 @@
+const isicon = document.querySelector('.fa-heart');
+
+show = () => {
+    isicon.style.transform = 'translate(-50%, -50%) scale(1)';
+     isicon.style.opacity =0.8;
+setTimeout(function(){
+    isicon.style.opacity =0;
+
+},1000);
+setTimeout(function(){
+    isicon.style.transform = 'translate(-50%, -50%) scale(0)';
+
+},3000);
+}
